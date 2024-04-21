@@ -1,19 +1,19 @@
 ##
 # Basic
 #
-site_title: Pico                    # The title of your website
-base_url: ~                         # Pico will try to guess its base URL, if this fails, override it here;
+site_title: Was mit Internet                    # The title of your website
+base_url: https://wasmitinter.net/                         # Pico will try to guess its base URL, if this fails, override it here;
                                     #     Example: https://example.com/pico/
-rewrite_url: ~                      # A boolean (true or false) indicating whether URL rewriting is forced
+rewrite_url: true                      # A boolean (true or false) indicating whether URL rewriting is forced
 debug: ~                            # Set this to true to enable Pico's debug mode
 timezone: ~                         # Your PHP installation might require you to manually specify a timezone
-locale: ~                           # Your PHP installation might require you to manually specify a locale to use
+locale: de                           # Your PHP installation might require you to manually specify a locale to use
 
 ##
 # Theme
 #
-theme: default                      # The name of your custom theme
-themes_url: ~                       # Pico will try to guess the URL to the themes dir of your installation;
+theme: wmi                      # The name of your custom theme
+themes_url:                        # Pico will try to guess the URL to the themes dir of your installation;
                                     #     If this fails, override it here. Example: https://example.com/pico/themes/
 theme_config:                       # Additional theme-specific config
     widescreen: false               # Default theme: Use more horizontal space (i.e. make the site container wider)
@@ -53,6 +53,20 @@ assets_url: ~                       # Pico will try to guess the URL to the asse
 plugins_url: ~                      # Pico will try to guess the URL to the plugins dir of your installation;
                                     #     If this fails, override it here. Example: https://example.com/pico/plugins/
 DummyPlugin.enabled: false          # Force the plugin "DummyPlugin" to be disabled
+
+
+##
+# Table Of Contents Plugin
+#
+
+TOC:
+  min_headers: 2
+  min_level: 2
+  max_level: 5
+  tag: ol
+  style: none
+  heading: Inhalt
+
 
 ##
 # Custom
