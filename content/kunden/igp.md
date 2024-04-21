@@ -44,8 +44,13 @@ Beim Versenden von Mails haben Sie grundsätzlich die Auswahl zwischen zwei Vers
 | Username                | vorname.nachname@igpweb.org                  | vorname.nachname@igpweb.org                  |
 | Password                | Ihr Passwort (bekommen Sie separat via Mail) | Ihr Passwort (bekommen Sie separat via Mail) |
 
+## Webmail
 
-## Einrichtung am Smartphone
+Sie können Mails über einen Webbrowser abrufen, indem Sie folgende Adresse aufrufen und dort Ihre Zugangsdaten eingeben:
+
+[https://webmail.uberspace.de/](https://webmail.uberspace.de/)
+
+## Einrichtung am Smartphone oder iPad
 
 Beim iPhone geht das in der Regel über Einstellung > Mail > Accounts und dann mit denselben Daten wie am PC. 
 
@@ -53,10 +58,12 @@ Bei Android-Handys finden Sie die Einstellungen für die Mail-Apps i.d.R. direkt
 
 ### SMTP-Server auf Apple-Geräten (iPad) einstellen
 
-Es kann bei Apple-Geräten vorkommen, dass die Daten für den Versandserver (SMTP) nicht übernommen werden. In diesem Fall müssen Sie die SMTP-Daten nochmal extra eingeben. 
+Es kann bei Apple-Geräten vorkommen, dass die Daten für den Versandserver (SMTP) nicht direkt übernommen werden. In diesem Fall müssen Sie die SMTP-Daten extra konfigurieren. 
 
-## Webmail
+Gehen Sie dazu zunächst in die Einstellungen und dort unter > Mail und dann wählen Sie „Accounts“ aus: 
 
-Sie können Mails über einen Webbrowser abrufen, indem Sie folgende Adresse aufrufen und dort Ihre Zugangsdaten eingeben:
+![](ipad-mail_1.png)
 
-[https://webmail.uberspace.de/](https://webmail.uberspace.de/)
+Auf der nächsten Seite wählen Sie den Account aus, den Sie bearbeiten möchten. 
+
+Hier ist es dann wichtig, unter den Accounteinstellungen auch „SMTP“ unter „Server für ausgehende Mails“ zu bearbeiten. Die Daten, die Sie hier eingeben müssen, sind dieselben wie oben.
