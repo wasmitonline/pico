@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c572de982113b017edeaa4b6ec598816",
+    "content-hash": "5018bce02bdf75516453d4d1318b0b95",
     "packages": [
         {
             "name": "erusev/parsedown",
@@ -109,6 +109,67 @@
                 "source": "https://github.com/erusev/parsedown-extra/tree/master"
             },
             "time": "2018-05-08T21:54:32+00:00"
+        },
+        {
+            "name": "iridescent-dev/pico-toc-plugin",
+            "version": "2.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/iridescent-dev/pico-toc-plugin.git",
+                "reference": "79fed34f87efbcb8b93e7672850af9497e305801"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/iridescent-dev/pico-toc-plugin/zipball/79fed34f87efbcb8b93e7672850af9497e305801",
+                "reference": "79fed34f87efbcb8b93e7672850af9497e305801",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.0"
+            },
+            "require-dev": {
+                "picocms/pico": "^2.1"
+            },
+            "type": "pico-plugin",
+            "extra": {
+                "installer-name": "TableOfContents"
+            },
+            "autoload": {
+                "classmap": [
+                    "TableOfContents.php",
+                    "style.css"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Véronique Seguela",
+                    "email": "veronique@iridescent.dev",
+                    "role": "Lead Developer"
+                },
+                {
+                    "name": "Contributors",
+                    "homepage": "https://github.com/iridescent-dev/pico-toc-plugin/graphs/contributors"
+                }
+            ],
+            "description": "A Table Of Contents plugin for Pico CMS.",
+            "homepage": "https://github.com/iridescent-dev/pico-toc-plugin",
+            "keywords": [
+                "iridescent",
+                "pico",
+                "pico-toc-plugin",
+                "picocms",
+                "picocms-plugin"
+            ],
+            "support": {
+                "docs": "https://github.com/iridescent-dev/pico-toc-plugin#readme",
+                "issues": "https://github.com/iridescent-dev/pico-toc-plugin/issues",
+                "source": "https://github.com/iridescent-dev/pico-toc-plugin"
+            },
+            "time": "2022-01-18T17:13:12+00:00"
         },
         {
             "name": "picocms/composer-installer",
@@ -613,5 +674,5 @@
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": [],
-    "plugin-api-version": "2.6.0"
+    "plugin-api-version": "2.2.0"
 }

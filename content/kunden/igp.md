@@ -62,7 +62,7 @@ Es kann bei Apple-Geräten vorkommen, dass die Daten für den Versandserver (SMT
 
 Gehen Sie dazu zunächst in die Einstellungen und dort unter > Mail und dann wählen Sie „Accounts“ aus: 
 
-![](ipad-mail_1.png)
+![Einstellungen: Accounts auswählen](/assets/ipad-mail_1.png)
 
 Auf der nächsten Seite wählen Sie den Account aus, den Sie bearbeiten möchten. 
 
